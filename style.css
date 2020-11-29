@@ -1,0 +1,198 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #21212E;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+	color: #46C2FF;
+	font-family: Brandon Grotesque; font-weight: bold; src: url('BGBOLD.otf');
+} 
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: 'brandon-grotusque', light;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+#Home img{
+	display: inline;
+	height: 450px;
+	margin: auto;
+}
+
+#Home img.appstore{
+	height: 125px;
+}
+#Home img.playstore{
+	height: 125px;
+}
+
+#About img{
+	height:425px; 
+	margin: auto;
+}
+
+section{
+	display: block;
+}
+#Showcase img{
+	height: 475px;
+}
+
+/*FEATURES SECTION START*/
+#Features {
+    margin: 10px;
+    display: inline-flex;
+}
+
+#Features .box {
+    border: 2px solid grey;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 25px;
+    background: #21212E;
+}
+
+#Features .box img {
+    height: 45px;
+    margin: auto;
+    display: block;
+}
+/*features section ends*/
+
+/*Subscribe section*/
+
+
+ 
+/*REVIEWS SECTION-start*/
+#reviews {
+    margin: 20px;
+    display: inline-flex;
+}
+
+#reviews .box {
+    border: 2px solid white;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 25px;
+    background:  #21212E;
+}
+
+#reviews .box img {
+    height: 75px;
+    margin: auto;
+    display: block;
+}
+/*reviews section ends*/
+
+
+#Contact {
+	display: inline-flex;
+	margin-left: 120px;
+	padding: 45px;
+	padding-left: 15px;
+}
+
+#subscription {
+	display: flex;
+	margin: 25px;
+}
+
+.social-media img{
+	display: flex;
+	margin: 200px;
+}
+/*utility classes*/
+.h-primary{
+	font-size: 2.6rem;
+	padding: 12px;
+}
+
+.h-secondary{
+	font-size:2.0rem;
+	padding: 12px; 
+}
+
+.btn{
+	padding: 6px 20px;
+	border: 2px solid grey;
+	background-color: LightBlue;
+	color: white;
+	margin: 17px;
+	font-size: 1.5rem
+	border-radius10px;
+	cursor: pointer;
+}
+
+.head-1{
+	font-size: 2.4rem;
+	padding: 4px;
+}
+
+ .center{
+	text-align: center;
+	display: flex;
+}
+    

@@ -1,0 +1,52 @@
+﻿@media only screen and (max-width: 1442px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #navbar ul li a{
+        flex-direction: column;
+    }
+
+    #Home img.appstore{
+        height: 55px;
+    }
+
+    #Home img.playstore{
+        height: 55px;
+    }
+
+    #Home img{
+        height: 200px;
+    }
+
+    #About img{
+        height: 200px;
+    }
+
+    #Showcase img{
+        height: 200px;
+    }
+
+    #Features{
+        display: inline-flex;
+    }
+
+    #Features .box{
+        padding: 17px;
+        margin: 3px 0px;
+    }
+
+    #Features .box img{
+        height: 60px;
+    }
+
+    #Review .box{
+        padding: 17px;
+        margin: 3px 0px;
+    }
+    
+    #Review .box img{
+        height: 60px;
+    }
+}
